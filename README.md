@@ -55,4 +55,9 @@ To start the application, run:
 npm start
 ```
 This will launch the app in your default web browser.
+Select 'Create Filter' to begin creating a filter in the workspace.
+Drag and drop the necessary specifications into filter components.
+Double click to delete specifications or a filter.
+To query additional filters, use the AND and OR operators by first creating a filter, then selecting the operator, and creating a second filter.
+Run.
 
