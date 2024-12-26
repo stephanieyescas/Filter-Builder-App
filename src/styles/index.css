@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+#filter-builder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.workspace {
+  width: 80%;
+  min-height: 400px;
+  border: 2px dashed #ccc;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.module {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #007bff;
+  background-color: #e7f1ff;
+  cursor: grab;
+}
+
+.module:hover {
+  background-color: #d0e7ff;
+}
+
+.dragging {
+  opacity: 0.5;
+}

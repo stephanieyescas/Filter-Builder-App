@@ -1,0 +1,169 @@
+.App {
+  text-align: center;
+}
+
+.filter-builder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.module-palette {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 10px; 
+  margin-top: 0px;
+  width: 25%;
+}
+
+.attributes-operators {
+  grid-column: 1; 
+}
+
+.comparators-input {
+  grid-column: 2; 
+}
+
+.module-palette h3 {
+  width: 100%;
+  margin-top: 20px; 
+  margin-bottom: 10px;
+}
+
+.module-palette .module {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  display: inline-block;
+  width: auto;
+}
+
+.graph-workspace-container {
+  display: flex;
+  flex-direction: column;
+  width: 75%; 
+  align-items: center; 
+}
+
+.graph-workspace {
+  border: 1px solid #ccc;
+  min-height: 400px;
+  margin-top: 20px;
+  padding: 0 10px 0 0;
+  background-color: #fff;
+  position: relative;
+  flex-grow: 1;
+  width: 95%;
+}
+
+.module {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px; 
+  cursor: pointer;
+  background-color: #f9f9f9;
+  display: inline-block;
+  width: auto;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+  margin-top: 20px;
+}
+
+.clear-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.add-attribute-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.run-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #ff2696;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.clear-results-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #ffa932;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.filter-container {
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 10px;
+  background-color: #e0e0e0;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.create-filter-button {
+  cursor: pointer;
+  background-color: #2664ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.filter-expression {
+  display: flex;
+  align-items: center;
+}
+
+
+.filter {
+  padding: 10px;
+  background-color: #fff;
+  margin: 20px 20px;
+  position: relative;
+}
+
+.filter:first-child::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 100%; 
+  width: 41px; 
+  height: 2px;
+  background-color: #ccc;
+  transform: translateY(-50%);
+}
+
+.filter:nth-child(2)::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 100%; 
+  width: 41px; 
+  height: 2px;
+  background-color: #ccc;
+  transform: translateY(-50%);
+}
+

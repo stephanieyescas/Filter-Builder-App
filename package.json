@@ -1,0 +1,44 @@
+{
+  "name": "filter-builder-app",
+  "version": "1.0.0",
+  "description": "A minimal frontend filter-building tool for MongoDB document filtering.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "react",
+    "mongodb",
+    "filter",
+    "drag-and-drop"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-dom": "^17.0.2",
+    "react-draggable": "^4.4.6",
+    "react-scripts": "^5.0.1"
+  },
+  "homepage": "http://yourhomepage.com",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/yourusername/filter-builder-app.git"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
