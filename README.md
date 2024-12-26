@@ -56,6 +56,7 @@ npm start
 ```
 This will launch the app in your default web browser.
 
+To use the tool:
 1. Select 'Create Filter' to begin creating a filter in the workspace.
 2. Drag and drop the necessary specifications into filter components.
 3. Double click to delete specifications or a filter.
