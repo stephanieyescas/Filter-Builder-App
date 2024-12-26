@@ -45,6 +45,7 @@ ztf-filter-builder
 3. Install the dependencies:
    ```
    npm install
+   npm install webpack-dev-server --save-dev
    ```
 
 ## Usage
